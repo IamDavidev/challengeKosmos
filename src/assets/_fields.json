@@ -5,11 +5,6 @@
 		"type": "text"
 	},
 	{
-		"component": "input",
-		"label": "description",
-		"type": "text"
-	},
-	{
 		"component": "select",
 		"label": "category",
 		"type": "select",
@@ -28,5 +23,30 @@
 		"component": "options",
 		"label": "urgent",
 		"type": "checkbox"
+	},
+	{
+		"component": "input",
+		"label": "date",
+		"type": "date"
+	},
+	{
+		"component": "input",
+		"label": "time",
+		"type": "time"
+	},
+	{
+		"component": "input",
+		"label": "number",
+		"type": "number"
+	},
+	{
+		"component": "input",
+		"label": "email",
+		"type": "email"
+	},
+	{
+		"component": "input",
+		"label": "file",
+		"type": "file"
 	}
 ]

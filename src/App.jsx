@@ -7,7 +7,7 @@ function App() {
 	const [fieldsForm, setFieldsForm] = useState([]);
 
 	return (
-		<div className='bg-black text-blue-400 min-h-screen flex flex-row gap-20 justify-center p-4'>
+		<div className='bg-black text-blue-400 min-h-screen flex flex-col sm:flex-row gap-20 justify-center p-4'>
 			<div className='w-full'>
 				<Fields fields={FieldsData} setForm={setFieldsForm} />
 			</div>
