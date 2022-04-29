@@ -1,5 +1,4 @@
 export const SelectedCustom = ({ name, options }) => {
-	console.log(name);
 	return (
 		<label className='flex flex-col'>
 			<span className='uppercase'>{name}</span>

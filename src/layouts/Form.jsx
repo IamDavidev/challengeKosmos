@@ -15,13 +15,25 @@ const Form = ({ fields, setForm }) => {
 					return (
 						<div className='flex gap-4 items-center' key={field._uid}>
 							{field.component === 'select' && (
-								<SelectedCustom name={field.label} options={field.options} />
+								<SelectedCustom
+									name={field.label}
+									options={field.options}
+									id={field._uid}
+								/>
 							)}
 							{field.component === 'input' && (
-								<InputCustom type={field.type} name={field.label} />
+								<InputCustom
+									type={field.type}
+									name={field.label}
+									id={field._uid}
+								/>
 							)}
 							{field.component === 'options' && (
-								<OptionsCustom type={field.type} name={field.label} />
+								<OptionsCustom
+									type={field.type}
+									name={field.label}
+									id={field._uid}
+								/>
 							)}
 							<button
 								onClick={e => handleRemoveField(field._uid, e)}
