@@ -1,0 +1,32 @@
+[
+	{
+		"component": "input",
+		"label": "title",
+		"type": "text"
+	},
+	{
+		"component": "input",
+		"label": "description",
+		"type": "text"
+	},
+	{
+		"component": "select",
+		"label": "category",
+		"type": "select",
+		"options": [
+			{ "label": "school", "value": "school" },
+			{ "label": "work", "value": "work" },
+			{ "label": "other", "value": "other" }
+		]
+	},
+	{
+		"component": "options",
+		"label": "important",
+		"type": "radio"
+	},
+	{
+		"component": "options",
+		"label": "urgent",
+		"type": "checkbox"
+	}
+]
